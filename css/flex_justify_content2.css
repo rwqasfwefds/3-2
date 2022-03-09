@@ -1,0 +1,31 @@
+.container{
+    width: 700px;
+    display: flex;
+    background-color: #eee;
+    border: 1px solid #222;
+    margin-bottom: 30px;
+}
+#opt1{
+    flex-direction: row; /* 왼쪽부터 오른쪽으로 배치 */
+}
+#opt2{
+    flex-direction: row-reverse; /* 오른쪽에서 왼쪽으로 배치 */
+}
+#opt3{
+    flex-direction: column; /* 위에서 아래로 배치 */
+}
+#opt4{
+    flex-direction: column-reverse; /* 아래에서 위로 배치 */
+}
+
+.box{
+    padding: 5px 45px;
+    margin: 5px;
+    width: 80px;
+    background-color: #222;
+}
+p{
+    color: #fff;
+    text-align: center;
+}
+/* flex-start,flex-end,center 이거 3개만 알면 됨 */

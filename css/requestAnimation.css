@@ -1,0 +1,13 @@
+body{
+    background-size: cover;
+    background: url('../img/bg_nature_3.jpg') center;
+}
+.timer{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    height: 150px;
+    font-size: 100px;
+    font-weight: bold;
+    color: white;
+}

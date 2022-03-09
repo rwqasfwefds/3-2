@@ -1,0 +1,36 @@
+/* 페이지 초기화 부분 */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: '굴림', '맑은 고딕', 'Malgun Gothic', Gothic, sans-serif;
+}
+html, body{
+    width: 100%;
+}
+/* flex태그는 항상 부모태그에 걸어준다(부모안에 들어간 자식태그에 적용을 하겠다 라는 뜻) */
+body{
+    display: flex;
+    background-color: lightgrey;
+    justify-content: center; /*그냥 이렇게만 적으면 정중앙에 정렬이 안 되고 그냥 중앙 정렬만 됨(중앙 위쪽) 정중앙에 위치하게 할려면 align-items: center 이 새끼도 써서 최상위 부모새끼 영역을 잡아줘야 쌉가능height) */
+}
+#page-wrapper{
+    background: white;
+    width: 900px;
+    border-radius: 5px;
+    box-shadow: 0 2px 6px rgba(100, 100, 100, 0.3); /*rgb는 색상만 rgba는 투명도도 같이*/
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+li{
+    list-style: none;
+}
+table{
+    border-collapse: collapse;
+}
+th, tr, td{
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+}

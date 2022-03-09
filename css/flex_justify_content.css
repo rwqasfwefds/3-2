@@ -1,0 +1,31 @@
+.container{
+    display: flex;
+    background-color: #eee;
+    border: 1px solid #222;
+    margin-bottom: 30px;
+}
+#opt1{
+    justify-content: flex-start; /* 주축 시작점 기준으로 배치 */
+}
+#opt2{
+    justify-content: flex-end; /* 주축 끝점 기준으로 배치 */
+}
+#opt3{
+    justify-content: center; /* 주축 중앙 기준으로 배치 */
+}
+#opt4{
+    justify-content: space-between; /* 시작점과 끝점 배치 후 항목을 같은 간격으로 배치 */
+}
+#opt5{
+    justify-content: space-around; /* 전체 항목을 같은 간격으로 배치 */
+}
+.box{
+    padding: 5px 45px;
+    margin: 5px;
+    background-color: #222;
+}
+p{
+    color: #fff;
+    text-align: center;
+}
+/* flex-start,flex-end,center 이거 3개만 알면 됨 */

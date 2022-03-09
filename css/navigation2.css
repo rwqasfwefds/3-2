@@ -1,0 +1,40 @@
+.pull-right{
+    margin-left: auto; /*마진이 왼쪽에 있으니깐 오른쪽으로 쭉 밀려감(왼쪽,오른쪽으로 쭉 보내고 싶으면 마진을 이용하자)*/
+}
+#main-navigation{
+    background-color: aqua;
+    display: flex;
+    justify-content: flex-start;
+}
+.outer-menu{
+    display: flex;
+    justify-content: flex-start;
+    width: 630px;
+    font-size: 15px;
+    background-color: lightcoral;
+}
+.outer-menu a:hover{
+    background-color: black;
+    color: white;
+    padding: 0px 20px;
+}
+.outer-menu a{
+    padding: 0px 20px;
+}
+.search-bar{
+    width: 260px;
+    height: 26px;
+    padding: 0px 20px;
+    background-color: lightgreen;
+    display: flex;
+    align-items: center;
+}
+.input-search{
+    width: 100px;
+    height: 15px;
+}
+.input-search-submit{
+    margin: 0px 2px;
+    height: 20px ;
+    font-size: 13px;
+}

@@ -1,0 +1,37 @@
+.pull-left{
+    float: left;
+}
+.pull-right{
+    float: right;
+}
+#main-navigation{
+    height: 30px;        /*float속성은 height로 영역을 안 주면 밑에께 쳐 올라옴 왜? float는 그냥 떠 있는 상태니깐 다른 새끼들이 영역을 침범 함*/
+    background-color: aqua;
+}
+.menu-title{
+    float: left;
+    font-size: medium;
+}
+.menu-title > a{
+    padding: 0px 30px;
+}
+.menu-title > a:hover{
+    background-color: black;
+    color: white;
+    padding: 0px 30px;
+}
+.search-bar{
+    background-color: lightcoral;
+    width: 230px;
+}
+.input-search{
+    float: left;
+    height: 20px;
+    width: 120px;
+    margin-right: 3px;
+}
+.input-search-submit{
+    float: left;
+    height: 25px;
+    font-size: 13px;
+}

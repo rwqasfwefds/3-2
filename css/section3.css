@@ -1,0 +1,40 @@
+#content{
+    background-color: lightblue;
+    margin-left: 20px;
+    font-size: small;
+    height: 300px;
+}
+#main-section{
+    background-color: lightyellow;
+    width: 650px;
+    float: left;
+}
+.article-header{
+    font-size: small;
+}
+.article-body{
+    font-size: xx-small;
+    margin-left: 5px;
+}
+.article-body img{
+    float: left;
+    height: 110px;
+    margin: 5px 10px;
+}
+#main-aside{
+    background-color: lightpink;
+    width: 230px;
+    float: right;
+}
+.aside-list{
+    margin-bottom: 5px;
+    font-size: x-small;
+}
+.aside-list-item{
+    margin: 5px;
+}
+#main-footer{
+    font-size: x-small;
+    margin: 10px 20px;
+}
+/* clear:booth = float를 쓰면 원래 밑에 있는 새끼가 말려 오는데 height를 쓰거나 아니면 이걸 쓰면 밑에 있는 새끼가 말려 올라오지 않음 */
